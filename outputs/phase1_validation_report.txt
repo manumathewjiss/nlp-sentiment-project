@@ -1,0 +1,226 @@
+================================================================================
+PHASE 1 MODEL VALIDATION REPORT
+================================================================================
+
+VALIDATION DATASET
+--------------------------------------------------------------------------------
+Source: Manually collected negative comments
+Total Comments: 100
+Expected Sentiment: NEGATIVE
+Validation Date: 2026-01-13 10:35:12
+
+MODEL INFORMATION
+--------------------------------------------------------------------------------
+Model: cardiffnlp/twitter-roberta-base-sentiment
+Model Type: RoBERTa (Twitter Sentiment)
+Batch Size: 16
+Max Length: 128
+
+VALIDATION RESULTS
+--------------------------------------------------------------------------------
+Overall Accuracy: 76.00%
+Negative Precision: 76.00%
+Negative Recall: 76.00%
+Correctly Identified as Negative: 76/100
+
+PREDICTION DISTRIBUTION
+--------------------------------------------------------------------------------
+NEGATIVE  :  76 (76.00%)
+NEUTRAL   :  20 (20.00%)
+POSITIVE  :   4 ( 4.00%)
+
+CONFIDENCE SCORE STATISTICS
+--------------------------------------------------------------------------------
+Mean Confidence: 77.47%
+Median Confidence: 84.13%
+Min Confidence: 37.17%
+Max Confidence: 97.85%
+Std Deviation: 18.61%
+
+DETAILED CLASSIFICATION REPORT
+--------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+    negative       1.00      0.76      0.86       100
+     neutral       0.00      0.00      0.00         0
+    positive       0.00      0.00      0.00         0
+
+    accuracy                           0.76       100
+   macro avg       0.33      0.25      0.29       100
+weighted avg       1.00      0.76      0.86       100
+
+MISCLASSIFIED COMMENTS
+--------------------------------------------------------------------------------
+Found 24 misclassified comments:
+
+Collection #4:
+  Comment: Y'all think you're so slick by unlisting all the rewinds...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 52.93%
+  Username: Homelessville Productions
+
+Collection #5:
+  Comment: Just dropping by to check the dislikes...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 72.68%
+  Username: PhilMC_
+
+Collection #6:
+  Comment: Just came back to see how the dislikes are doing, not the video....
+  Expected: negative
+  Predicted: neutral
+  Confidence: 55.93%
+  Username: Parbachano
+
+Collection #15:
+  Comment: Congratulations everyone.. Most disliked trailer in the world untill now...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 37.17%
+  Username: SuNil ChauDhary Vlogs
+
+Collection #22:
+  Comment: Who's still disliking in October 2015?...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 55.80%
+  Username: Liam Butler
+
+Collection #25:
+  Comment: I love who ever putted the 7th million dislike....
+  Expected: negative
+  Predicted: positive
+  Confidence: 75.27%
+  Username: kyle Richards
+
+Collection #33:
+  Comment: we miss bullying rewinds please come back...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 50.54%
+  Username: suneater
+
+Collection #34:
+  Comment: I like how 2019 dislikes are not because it's cringy but because of how little to no effort they're putting into the rewind...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 41.20%
+  Username: Bullet Time
+
+Collection #43:
+  Comment: Idk if there's a NOT creepy way to be messaging young fans lol......
+  Expected: negative
+  Predicted: neutral
+  Confidence: 61.06%
+  Username: penguin
+
+Collection #46:
+  Comment: Oh this is quirky...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 66.14%
+  Username: Maya Y
+
+Collection #63:
+  Comment: back here to check the dislike bar. Congrats everybody we finally got to 500k :)...
+  Expected: negative
+  Predicted: positive
+  Confidence: 82.60%
+  Username: info62
+
+Collection #64:
+  Comment: this trailer gave me diabeetus...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 55.51%
+  Username: Spice Industries
+
+Collection #66:
+  Comment: I used to hit myself but i just watch this trailer now...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 56.95%
+  Username: kev.
+
+Collection #67:
+  Comment: Just passing by to see how many how many dislikes it has now...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 53.28%
+  Username: Jack Star
+
+Collection #68:
+  Comment: Lets get the dislikes to 1 mil boys...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 72.74%
+  Username: Calibri Body
+
+Collection #71:
+  Comment: I saw this movie for free and I still want my money back!...
+  Expected: negative
+  Predicted: positive
+  Confidence: 43.32%
+  Username: Matti Ace
+
+Collection #74:
+  Comment: Let's get to a million dislikes...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 56.68%
+  Username: QoVoC
+
+Collection #75:
+  Comment: I wonder where all of the feminist, who said that this was going to be a hit, are?...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 56.05%
+  Username: Marie Skarsgård
+
+Collection #84:
+  Comment: i like the spanish part because i cant understand it...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 45.84%
+  Username: Tyrues
+
+Collection #85:
+  Comment: this video makes me understand why thanos wanted to wipe out half of the universe...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 47.85%
+  Username: lyla
+
+Collection #88:
+  Comment: WE GETTIN UP FROM OUR WHEELCHAIR TO PAUSE THE VIDEO WITH THIS ONE...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 85.15%
+  Username: Noob
+
+Collection #94:
+  Comment: If Jake Paul goes to jail then he’s finally gonna finish a sentence....
+  Expected: negative
+  Predicted: neutral
+  Confidence: 66.17%
+  Username: Kirb
+
+Collection #96:
+  Comment: wow, I can't wait to not see this movie....
+  Expected: negative
+  Predicted: positive
+  Confidence: 52.28%
+  Username: Some Mook
+
+Collection #99:
+  Comment: Is this a cringe compilation?...
+  Expected: negative
+  Predicted: neutral
+  Confidence: 48.98%
+  Username: Admiralex91
+
+================================================================================
+END OF REPORT
+================================================================================

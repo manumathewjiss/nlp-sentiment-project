@@ -1,0 +1,99 @@
+================================================================================
+PHASE 2 VALIDATION: TOXICITY & HATE SPEECH CATEGORIZATION REPORT
+================================================================================
+
+DATASET INFORMATION
+--------------------------------------------------------------------------------
+Source: Manually collected negative comments
+Total Comments Analyzed: 100
+Validation Date: 2026-01-13 10:41:43
+
+MODEL INFORMATION
+--------------------------------------------------------------------------------
+Model: facebook/bart-large-mnli
+Type: BART Zero-Shot Classification
+Classification Type: Multi-class (Single Label)
+
+CLASSIFICATION CATEGORIES
+--------------------------------------------------------------------------------
+1. Harassment/Hate Speech
+2. Spam
+3. Inappropriate Content
+4. Toxicity
+5. Aggressive Behavior
+6. Misinformation
+7. Other Negative
+
+CATEGORY DISTRIBUTION
+--------------------------------------------------------------------------------
+Category                                 Count   Percentage
+--------------------------------------------------------------------------------
+Harassment/Hate Speech                       3        3.00%
+Spam                                         0        0.00%
+Inappropriate Content                       22       22.00%
+Toxicity                                     2        2.00%
+Aggressive Behavior                         11       11.00%
+Misinformation                               4        4.00%
+Other Negative                              58       58.00%
+--------------------------------------------------------------------------------
+TOTAL                                      100      100.00%
+
+CONFIDENCE SCORE STATISTICS
+--------------------------------------------------------------------------------
+Average Confidence: 55.41%
+Median Confidence:  51.37%
+Std Deviation:      17.08%
+Min Confidence:     24.97%
+Max Confidence:     91.53%
+
+TOP COMMENTS BY CATEGORY
+--------------------------------------------------------------------------------
+
+Harassment/Hate Speech (3 comments):
+  - [46.99%] my fourteen year old daughter says your trailer sucks , is she a misogynist?...
+  - [40.96%] yeah 4 years later just came here to hate on this trailer rip sushant...
+  - [30.34%] who comes here just to make fun of the dislikes and likes...
+
+Inappropriate Content (22 comments):
+  - [68.31%] idk if there's a not creepy way to be messaging young fans lol......
+  - [67.18%] what the hell is drake doing in this video? why the hell is he hanging out with 14 year olds at a bowling alley at 1 13?...
+  - [54.82%] i blame this shitass vid for removing dislikes...
+  - [54.78%] boycott this movie and make record in dislike and impb rating should be 1. they are murderers of our ssr...
+  - [53.44%] i remember watching this movie on a plane and people still walked out...
+
+Toxicity (2 comments):
+  - [82.81%] this is the toxic group of friends in high school that lowkey all hate each other...
+  - [44.37%] complete trash. 400,000 dislikes to 179,000 likes. rip ghostbusters. error 404 enjoyment not found....
+
+Aggressive Behavior (11 comments):
+  - [79.12%] we bullied youtube so hard that they stopped uploading rewinds...
+  - [72.72%] this video makes me understand why thanos wanted to wipe out half of the universe...
+  - [72.26%] we bullied them to stop rewinds, then remove dislikes...
+  - [71.38%] this has given me the ability to kill....
+  - [67.42%] got his ass folded in that fight...
+
+Misinformation (4 comments):
+  - [58.73%] y'all think you're so slick by unlisting all the rewinds...
+  - [49.70%] first of all i m not racist, but. wth why word it like this....
+  - [40.92%] am i in a fever dream .. this can t really be your response...
+  - [27.38%] i have arrived here to dislike this trailer because she thinks her selfs most talented though she is not...
+
+Other Negative (58 comments):
+  - [91.53%] who else dislike the video and doesn't know why?...
+  - [87.75%] you cannot erase your failures...
+  - [87.32%] this is the 3th most disliked video in the world, damn......
+  - [87.16%] who is here to dislike in 2017?...
+  - [85.98%] just dropping by to check the dislikes...
+
+================================================================================
+GENERATED FILES
+================================================================================
+1. outputs/phase2_validation_classification_results.csv
+2. outputs/phase2_validation_classification_report.txt
+3. outputs/phase2_validation_category_distribution.png
+4. outputs/phase2_validation_classification_matrix.png
+5. outputs/phase2_validation_confidence_distribution.png
+
+================================================================================
+END OF REPORT
+================================================================================

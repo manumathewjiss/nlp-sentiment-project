@@ -1,0 +1,104 @@
+================================================================================
+PHASE 2: ADVANCED NEGATIVE COMMENT CLASSIFICATION REPORT
+================================================================================
+
+MODEL INFORMATION
+--------------------------------------------------------------------------------
+Model: facebook/bart-large-mnli
+Type: BART Zero-Shot Classification
+Classification Type: Multi-class (Single Label)
+Total Comments Classified: 2320
+
+CLASSIFICATION CATEGORIES
+--------------------------------------------------------------------------------
+1. Harassment/Hate Speech
+2. Spam
+3. Inappropriate Content
+4. Toxicity
+5. Aggressive Behavior
+6. Misinformation
+7. Other Negative
+
+CATEGORY DISTRIBUTION
+--------------------------------------------------------------------------------
+Category                                 Count   Percentage
+--------------------------------------------------------------------------------
+Harassment/Hate Speech                      24        1.03%
+Spam                                         6        0.26%
+Inappropriate Content                      223        9.61%
+Toxicity                                    95        4.09%
+Aggressive Behavior                        335       14.44%
+Misinformation                             279       12.03%
+Other Negative                            1358       58.53%
+--------------------------------------------------------------------------------
+TOTAL                                     2320      100.00%
+
+CONFIDENCE SCORE STATISTICS
+--------------------------------------------------------------------------------
+Average Confidence: 50.78%
+Median Confidence:  48.80%
+Std Deviation:      16.39%
+Min Confidence:     18.72%
+Max Confidence:     97.33%
+
+SAMPLE CLASSIFICATIONS
+--------------------------------------------------------------------------------
+Top 5 Most Confident Predictions:
+
+Comment: another problem with filling tires with water is that the first bump you hit will probably cause the tire to blow off the rim water is incompressible ...
+Category: Other Negative
+Confidence: 97.33%
+
+Comment: there was also another problem with the fitbit when some of the straps would irritate your skin and leave a rash and still the company hasnt dealt wit...
+Category: Other Negative
+Confidence: 96.69%
+
+Comment: getting blamed for unrelated issues sucks but sometimes karma does work especially in the automotive industry being a technician for example someone w...
+Category: Other Negative
+Confidence: 96.48%
+
+Comment: me failing math also me i m gonna be a physicist...
+Category: Other Negative
+Confidence: 96.05%
+
+Comment: another issue is that whenever you sink that much money into a single project the designers have to give up a significant amount of creative control b...
+Category: Other Negative
+Confidence: 95.53%
+
+
+--------------------------------------------------------------------------------
+Top 5 Least Confident Predictions:
+
+Comment: i never thought that this movie will be made without chadwick boseman and it still feels incomplete but now nothing can be done about it ill watch thi...
+Category: Toxicity
+Confidence: 18.72%
+
+Comment: i did not expect to enjoy crypto this much his mobile version is insane who wants a full crypto tips and tricks video...
+Category: Inappropriate Content
+Confidence: 19.81%
+
+Comment: i like watching these videos cuz they do be inspiring me to continue my college education in highscool i was a 20 gpa student barely putting the effor...
+Category: Other Negative
+Confidence: 20.33%
+
+Comment: tasha s answers had me rolling 1985 son when i tell you that took me out...
+Category: Inappropriate Content
+Confidence: 20.39%
+
+Comment: when grey was talking about the warehouses and slaughterhouses all i could do was think of star wars the bots are basically equivalent to clones on ka...
+Category: Other Negative
+Confidence: 20.52%
+
+
+================================================================================
+GENERATED FILES
+================================================================================
+1. outputs/phase2_classification_results.csv
+2. outputs/phase2_classification_matrix.png
+3. outputs/phase2_category_distribution.png
+4. outputs/phase2_confidence_distribution.png
+5. outputs/phase2_classification_report.txt
+
+================================================================================
+END OF REPORT
+================================================================================
